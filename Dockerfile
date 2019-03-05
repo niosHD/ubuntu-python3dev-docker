@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y \
     python3 \
     python3-pip && \
   pip3 install pycodestyle \
-    pytest pytest-cov pytest-runner pytest-xdist \
+    pytest pytest-console-scripts pytest-cov pytest-runner pytest-xdist \
     sphinx sphinx-autodoc-typehints \
     twine \
     typeguard 
